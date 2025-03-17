@@ -1838,6 +1838,12 @@
       position: absolute;
     }
   }
+  .before\:-top-4 {
+    &::before {
+      content: var(--tw-content);
+      top: calc(var(--spacing) * -4);
+    }
+  }
   .before\:top-0 {
     &::before {
       content: var(--tw-content);
@@ -1848,6 +1854,12 @@
     &::before {
       content: var(--tw-content);
       top: calc(1/2 * 100%);
+    }
+  }
+  .before\:top-4 {
+    &::before {
+      content: var(--tw-content);
+      top: calc(var(--spacing) * 4);
     }
   }
   .before\:-left-32 {
