@@ -1838,6 +1838,18 @@
       position: absolute;
     }
   }
+  .before\:-top-2 {
+    &::before {
+      content: var(--tw-content);
+      top: calc(var(--spacing) * -2);
+    }
+  }
+  .before\:-top-3 {
+    &::before {
+      content: var(--tw-content);
+      top: calc(var(--spacing) * -3);
+    }
+  }
   .before\:-top-4 {
     &::before {
       content: var(--tw-content);
@@ -1917,10 +1929,28 @@
       right: calc(var(--spacing) * 0);
     }
   }
+  .after\:-bottom-0 {
+    &::after {
+      content: var(--tw-content);
+      bottom: calc(var(--spacing) * -0);
+    }
+  }
   .after\:-bottom-4 {
     &::after {
       content: var(--tw-content);
       bottom: calc(var(--spacing) * -4);
+    }
+  }
+  .after\:-bottom-5 {
+    &::after {
+      content: var(--tw-content);
+      bottom: calc(var(--spacing) * -5);
+    }
+  }
+  .after\:bottom-0 {
+    &::after {
+      content: var(--tw-content);
+      bottom: calc(var(--spacing) * 0);
     }
   }
   .after\:bottom-12 {
