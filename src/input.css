@@ -1,6 +1,14 @@
 @import "tailwindcss";
+/* In your global CSS file (e.g., styles.css or tailwind.css) */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 @theme {
-    --spacing-my: 900px; 
+    --spacing-my: 1170px; 
+    --font-inter: "Inter", sans-serif;
+    --color-primary: #5956E8;
+    --radius-10: 10px;
+    --shadow-box: 0 5px 20px 0 rgba(22, 44, 83, 0.1); 
   }
+
+  
